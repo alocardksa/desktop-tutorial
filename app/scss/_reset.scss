@@ -1,0 +1,41 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    font-family: $font-family-primay;
+}
+
+.container {
+    padding: 1rem 7rem;
+}
+// mobile
+@include maxw($mobile-breakpoint) {
+    .container {
+        padding: 1rem 1rem;
+    }
+}
+// tablet
+@include minandmaxw($mobile-breakpoint, $tablet-breakpoint) {
+    .container {
+        padding: 1rem 1rem;
+    }
+}
