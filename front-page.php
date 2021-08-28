@@ -23,7 +23,7 @@
           Our creations
         </h1>
         <div class="section2__header__right">
-          <button class="section2__header__right__button button">alocard</button>
+          <button class="section2__header__right__button button">See all</button>
         </div>
       </div>
       <div class="section2__creation">
